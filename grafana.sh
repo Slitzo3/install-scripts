@@ -13,5 +13,6 @@ git clone https://github.com/Tooxic/install-scripts
 
 cd install-scripts/Files
 
+mv idrac-input.conf /etc/telegraf/telegraf.d
 
 echo Done
