@@ -7,3 +7,11 @@ echo "deb https://packages.grafana.com/enterprise/deb stable main" | sudo tee -a
 sudo apt-get update -y
 sudo apt-get install grafana-enterprise -y
 
+cd /tmp
+
+git clone https://github.com/Tooxic/install-scripts
+
+cd install-scripts/Files
+
+
+echo Done
